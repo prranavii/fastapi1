@@ -13,8 +13,6 @@ def load_data():
 def hello():
     return {"message": "Patient Management System API"}  # This function returns a JSON response with a greeting message when the root URL is accessed.
 
-
-
 @app.get("/about")
 def about():
     return {"message": "A fully functional API to manage your patient records"}  # This function returns a JSON response with information about the application when the "/about" URL is accessed.
